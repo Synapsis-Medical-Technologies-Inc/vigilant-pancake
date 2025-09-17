@@ -1,0 +1,118 @@
+.ecg-container {
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1; /* Place behind content */
+}
+
+.ecg-svg {
+  width: 100%;
+  height: 100%;
+}
+
+.ecg-path {
+  stroke: rgb(255, 20, 147); /* Changed from green to hot pink */
+  stroke-width: 2;
+  fill: none;
+  filter: drop-shadow(0 0 3px rgb(255, 20, 147)); /* Updated shadow color */
+}
+
+/* Thick sweeping cursor matching background color */
+.cursor {
+  height: 90%;
+  fill: #101424; /* Matches div background */
+  stroke: #101424; /* Matches div background */
+  stroke-width: 15;
+  animation: moveCursor 10s linear infinite;
+  filter: drop-shadow(0 0 5px rgba(16, 20, 36, 1)); /* Updated shadow color */
+}
+
+/* Basic cursor animation - smooth and slow */
+@keyframes moveCursor {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+/* Animation variant 1: Fade effect */
+.ecg-fade .ecg-path {
+  animation: fadeEffect 5s linear infinite;
+}
+
+@keyframes fadeEffect {
+  0%,
+  100% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Animation variant 2: Pulse effect */
+.ecg-pulse .ecg-path {
+  animation: pulseEffect 5s linear infinite;
+}
+
+@keyframes pulseEffect {
+  0%,
+  100% {
+    stroke-width: 1;
+    filter: drop-shadow(0 0 1px rgb(255, 20, 147));
+  }
+  50% {
+    stroke-width: 3;
+    filter: drop-shadow(0 0 5px rgb(255, 20, 147));
+  }
+}
+
+/* Animation variant 3: Color change */
+.ecg-color-shift .ecg-path {
+  animation: colorShift 5s linear infinite;
+}
+
+@keyframes colorShift {
+  0% {
+    stroke: rgb(255, 20, 147);
+  }
+  33% {
+    stroke: #00ffff;
+  }
+  66% {
+    stroke: #ff00ff;
+  }
+  100% {
+    stroke: rgb(255, 20, 147);
+  }
+}
+
+/* Animation variant 4: Zoom effect */
+.ecg-zoom .ecg-path {
+  animation: zoomEffect 5s linear infinite;
+}
+
+@keyframes zoomEffect {
+  0%,
+  100% {
+    transform: scaleY(1);
+  }
+  50% {
+    transform: scaleY(1.2);
+  }
+}
+
+@media (max-width: 600px) {
+  .ecg-container {
+    display: none;
+  }
+}

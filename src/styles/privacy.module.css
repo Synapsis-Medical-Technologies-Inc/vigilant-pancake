@@ -1,0 +1,419 @@
+.logo21 {
+  width: 36px;
+  position: relative;
+  height: 33.3px;
+  object-fit: cover;
+}
+.synapsis {
+  position: relative;
+  letter-spacing: -0.04em;
+  line-height: 150%;
+}
+.logo21Parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.about {
+  position: relative;
+  letter-spacing: -0.6px;
+  line-height: 140%;
+  font-weight: 500;
+}
+.aboutParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 32px;
+}
+.download {
+  position: relative;
+  letter-spacing: -0.6px;
+  line-height: 140%;
+  font-weight: 600;
+}
+.downloadWrapper {
+  border-radius: 12px;
+  background-color: #fe568d;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 11px 20px;
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0px;
+}
+.frameWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 0px;
+}
+.termsOfService {
+  position: relative;
+  letter-spacing: -0.6px;
+  line-height: 120%;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  text-align: center;
+}
+.termsOfServiceWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.frameDiv {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.introduction1 {
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+}
+.introduction {
+  margin: 0;
+  font-family: 'DM Sans', sans-serif;
+}
+.introText {
+  margin: 0;
+  line-height: 1.6;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #fff;
+}
+.wwwsynapsismedtechcom1 {
+  text-decoration: underline;
+}
+.wwwsynapsismedtechcom {
+  color: inherit;
+}
+.introductionWelcomeToContainer {
+  width: 952px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 20px;
+}
+.introductionWelcomeToSynapsWrapper {
+  width: 1088px;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 16px 24px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.informationWeCollect {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'DM Sans', sans-serif;
+}
+.personalData {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: 'DM Sans', sans-serif;
+}
+.listItem {
+  margin-bottom: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.nameEmailAddressPhoneNumbe {
+  margin: 12px 0;
+  font-family: 'DM Sans', sans-serif;
+  padding-left: 27px;
+  list-style-type: disc;
+}
+.informationWeCollectContainer {
+  width: 952px;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  padding: 20px;
+}
+.informationWeCollectPersonaWrapper {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+.howWeUseYourDataWeUseThWrapper {
+  align-self: stretch;
+  border-radius: 16px;
+  background-color: rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px;
+  box-sizing: border-box;
+}
+.frameParent1 {
+  width: 1088px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 20px;
+}
+.frameContainer {
+  width: 100%;
+  max-width: 1204px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 72px 20px;
+  box-sizing: border-box;
+  gap: 40px;
+  font-size: 40px;
+  margin: 0 auto;
+}
+.logo21Group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+}
+.worldsMostAdvanced {
+  align-self: stretch;
+  position: relative;
+  font-size: 16px;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-family: 'DM Sans', sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+}
+.frameParent5 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.frameChild {
+  width: 38px;
+  border-radius: 999px;
+  height: 38px;
+}
+.frameParent6 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  gap: 8px;
+}
+.frameParent4 {
+  width: 486px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 24px;
+}
+.links {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+  font-weight: 500;
+}
+.benefits {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+}
+.featuresParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.6);
+}
+.linksParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 12px;
+}
+.downloadApp {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 120%;
+  font-weight: 500;
+}
+.frameIcon {
+  width: 132.8px;
+  border-radius: 6.77px;
+  height: 44px;
+}
+.frameChild1 {
+  width: 129.2px;
+  border-radius: 7.38px;
+  height: 48px;
+}
+.frameParent8 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+}
+.downloadAppParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.frameParent7 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+  font-size: 18px;
+  font-family: 'DM Sans', sans-serif;
+}
+.frameParent3 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 0px;
+  gap: 0px;
+}
+.copyright2025Synapsis {
+  position: relative;
+  letter-spacing: -0.01em;
+  line-height: 140%;
+}
+.copyright2025SynapsisMedicWrapper {
+  align-self: stretch;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 8px 40px;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 0.4);
+  font-family: 'DM Sans', sans-serif;
+}
+.frameParent2 {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+.frameParent {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0px 20px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: 16px;
+  color: #fff;
+  font-family: 'DM Sans', sans-serif;
+  background-color: #000; /* Assuming dark background */
+  min-height: 100vh;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 1200px) {
+  .frameContainer {
+    width: 100%;
+    padding: 72px 16px;
+  }
+  .frameParent1 {
+    width: 100%;
+  }
+  .introductionWelcomeToSynapsWrapper,
+  .informationWeCollectPersonaWrapper,
+  .howWeUseYourDataWeUseThWrapper {
+    width: 100%;
+  }
+  .introductionWelcomeToContainer,
+  .informationWeCollectContainer {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .termsOfService {
+    font-size: 32px;
+  }
+  .introduction1 {
+    font-size: 24px;
+  }
+  .informationWeCollect {
+    font-size: 24px;
+  }
+  .personalData {
+    font-size: 20px;
+  }
+  .frameContainer {
+    padding: 40px 16px;
+  }
+}
+
+

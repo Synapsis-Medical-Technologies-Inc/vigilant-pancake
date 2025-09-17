@@ -1,0 +1,129 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Colors */
+    --primary-background: #fe568d;
+    --primary-foreground: #ffffff;
+    --primary-light: #ff7ba6;
+    --primary-dark: #d13a6e;
+
+    /* Secondary Colors */
+    --secondary-background: #2e70b3;
+    --secondary-foreground: #ffffff;
+    --secondary-light: #5596d8;
+    --secondary-dark: #074a8e;
+
+    /* Accent Colors */
+    --accent-color: #ffffff;
+    --accent-foreground: #121722;
+    --accent-light: #ffffff;
+    --accent-dark: #e0e0e0;
+
+    /* Border Colors */
+    --border-primary: #ffffff19;
+    --border-secondary: #ffffff33;
+    --border-light: #ffffff0c;
+    --border-dark: #ffffff66;
+  }
+
+  body {
+    background-color: #121722;
+    color: #ffffff;
+    font-family: 'DM Sans', sans-serif;
+  }
+}
+
+@layer utilities {
+  /* Background Color Utilities */
+  .bg-primary-pink {
+    background-color: var(--primary-background);
+  }
+
+  .bg-primary-light {
+    background-color: var(--primary-light);
+  }
+
+  .bg-primary-dark {
+    background-color: var(--primary-dark);
+  }
+
+  .bg-secondary-blue {
+    background-color: var(--secondary-background);
+  }
+
+  .bg-secondary-light {
+    background-color: var(--secondary-light);
+  }
+
+  .bg-secondary-dark {
+    background-color: var(--secondary-dark);
+  }
+
+  .bg-accent {
+    background-color: var(--accent-color);
+  }
+
+  .bg-accent-light {
+    background-color: var(--accent-light);
+  }
+
+  .bg-accent-dark {
+    background-color: var(--accent-dark);
+  }
+
+  /* Text Color Utilities */
+  .text-primary-pink {
+    color: var(--primary-background);
+  }
+
+  .text-secondary-blue {
+    color: var(--secondary-background);
+  }
+
+  .text-accent-white {
+    color: var(--accent-foreground);
+  }
+
+  /* Border Color Utilities */
+  .border-primary {
+    border-color: var(--border-primary);
+  }
+
+  .border-secondary {
+    border-color: var(--border-secondary);
+  }
+
+  .border-light {
+    border-color: var(--border-light);
+  }
+
+  .border-dark {
+    border-color: var(--border-dark);
+  }
+
+  /* Custom Utilities */
+  .bg-card {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .bg-card-hover:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  .bg-gradient-blue {
+    background: linear-gradient(180deg, #5596d8 0%, #074a8e 100%);
+  }
+
+  .bg-gradient-overlay {
+    background: linear-gradient(180deg, rgba(1, 9, 23, 0) 0%, #030b1b 100%);
+  }
+
+  .text-gradient {
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+}
