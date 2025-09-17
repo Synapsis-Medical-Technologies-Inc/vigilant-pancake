@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   productionBrowserSourceMaps: true,
+  distDir: process.env.DIST_DIR || ".next",
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -10,7 +11,6 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  distDir: "build",
   webpack(config) {
     config.module.rules.push({
       test: /\.(jsx|tsx)$/,

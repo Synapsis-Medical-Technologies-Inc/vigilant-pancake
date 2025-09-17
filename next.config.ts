@@ -3,16 +3,15 @@ const nextConfig = {
   trailingSlash: false,
   assetPrefix:
     process.env.NODE_ENV === "production"
-      ? "/Synapsis-Medical-Technologies-Inc/spyk-health-landing-page"
+      ? "/Synapsis-Medical-Technologies-Inc/vigilant-pancake"
       : "",
   basePath:
     process.env.NODE_ENV === "production"
-      ? "/Synapsis-Medical-Technologies-Inc/spyk-health-landing-page"
+      ? "/Synapsis-Medical-Technologies-Inc/vigilant-pancake"
       : "",
   images: {
     unoptimized: true,
   },
-  distDir: "build",
 };
 
 export default nextConfig;
